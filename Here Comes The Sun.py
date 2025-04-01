@@ -20,9 +20,9 @@ while running:
     pygame.draw.rect(screen, (60, 179, 113), (0, 400, 800, 200))
     
     # Sun
-    pygame.draw.circle(screen, (255, 223, 0), (700, 100), 50)
     pygame.draw.line(screen, (255, 233, 0), (625, 100), (775, 100), 10)
     pygame.draw.line(screen, (255, 233, 0), (700, 25), (700, 175), 10)
+    pygame.draw.circle(screen, (255, 223, 0), (700, 100), 50)
 
     # Rainbow 
     pygame.draw.arc(screen, (255, 0, 0), (200, 200, 400, 400), 0, math.pi, 10)
